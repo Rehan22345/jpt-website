@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --color:hsl(162,100%,40%);
+    --bg:hsl(228,15%,10%);
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background: var(--bg);
+   position: relative;
+}
+.navbar ul{
+  display: flex;
+
+  gap: 30px;
+height: 65px;
+align-items: center;
+width: 1365px;
+}
+.navbar ul li:nth-child(2) {
+  list-style-type: none;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+.navbar ul li:nth-child(3) {
+    list-style-type: none;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .navbar ul li:nth-child(4) {
+    list-style-type: none;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-right: 600px;
+    margin-right: 10px;
+  }
+  .navbar ul li:nth-child(5) {
+    list-style-type: none;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-right: 600px;
+    margin-right: 10px;
+  }
+.home{
+    color: var(--color);
+    list-style-type: none;
+   margin-left: 655px;
+  
+    cursor: pointer;
+}
+.home:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.navbar ul li:nth-child(4):hover{
+    color: var(--color);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.navbar ul li:nth-child(3):hover{
+    color: var(--color);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.navbar ul li:nth-child(2):hover{
+    color: var(--color);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.navbar ul li:nth-child(5):hover{
+    color: var(--color);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.profile{
+    width: 232px;
+height: 232px;
+
+position: absolute;
+right: 195px;
+top: 190px;
+}
+.text{
+    position: relative;
+    width: 400px;
+    height: 400px;
+   top: 120px;
+    left: 100px;
+}
+.hello{
+color: whitesmoke;
+font-size: 20px;
+}
+.im{
+color: var(--color);
+font-size: 20px;
+}
+.name{
+    color: var(--color);
+font-size: 30px;
+}
+.dev{
+    color: whitesmoke;
+font-size: 20px;
+}
+.desc{
+    color: whitesmoke;
+    font-size: 13px; 
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: whitesmoke;
+    background: var(--color);
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#insta{
+    margin-top: 38px;
+font-size: 20px;
+background: var(--color);
+padding: 10px;
+color: whitesmoke;
+border-radius: 50%;
+cursor: pointer;
+}
+#insta:hover{
+    scale: 1.1;
+}
+#git{
+    margin-top: 38px;
+font-size: 20px;
+background: var(--color);
+padding: 10px;
+color: whitesmoke;
+border-radius: 50%;
+cursor: pointer;
+margin-left: 10px;
+}
+#git:hover{
+    scale: 1.1;
+}
+#link{
+    margin-top: 38px;
+font-size: 20px;
+background: var(--color);
+padding: 10px;
+color: whitesmoke;
+border-radius: 50%;
+cursor: pointer;
+margin-left: 10px;
+}
+#link:hover{
+    scale: 1.1;
+}
